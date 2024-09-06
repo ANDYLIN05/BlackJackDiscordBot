@@ -1,11 +1,11 @@
-const games = require('./../games'); // Ensure you're importing the 'games' object properly
+const games = require('../games');
 
 module.exports = {
     name: 'bet',
     description: 'Place a bet in the game',
     execute(message, args) {
         const userId = message.author.id;
-        const game = games[userId];  // Corrected 'games[userId]'
+        const game = games[userId];  
 
         if (!game) {
             message.reply("You need to start a game first with !play");

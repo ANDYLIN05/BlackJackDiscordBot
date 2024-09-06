@@ -1,7 +1,8 @@
-const Deck = require('./../deck');   
-const Hand = require('./../hand');   
-const Bet = require('./../bet');
-const games = require('./../games');
+const Deck = require('../deck');   
+const Hand = require('../hand');   
+const Bet = require('../bet');
+const games = require('../games');
+
 
 module.exports = {
     name: 'play',

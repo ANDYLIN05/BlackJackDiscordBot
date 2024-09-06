@@ -1,4 +1,5 @@
-const games = require('./../games'); // Make sure you import the 'games' object correctly
+const games = require('../games');
+
 
 module.exports = {
     name: 'balance',

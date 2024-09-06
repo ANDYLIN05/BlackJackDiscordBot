@@ -1,4 +1,4 @@
-const games = require('./../games'); 
+const games = require('../games');
 
 module.exports = {
     name: 'stand',
