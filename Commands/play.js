@@ -1,6 +1,6 @@
-const Deck = require('../deck');   
-const Hand = require('../hand');   
-const Bet = require('../bet');
+const Deck = require('./deck');  
+const Hand = require('./hand');   
+const Bet = require('./bet');
 const games = require('../games');
 
 
