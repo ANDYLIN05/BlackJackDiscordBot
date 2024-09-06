@@ -1,9 +1,7 @@
 const Deck = require('./../deck');   
 const Hand = require('./../hand');   
 const Bet = require('./../bet');
-
-// Store game state for each user
-const games = {};
+const games = require('./../games');
 
 module.exports = {
     name: 'play',
